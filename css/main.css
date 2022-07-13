@@ -1,0 +1,568 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/*navbar*/
+
+nav {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  margin-top: 32px;
+}
+
+.logo_block {
+  display: flex;
+}
+
+.logo_block a {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 50px;
+  /* identical to box height, or 48% */
+  color: #556686;
+  text-decoration: none;
+}
+
+.logo_block span {
+  margin-top: 7px;
+  margin-left: 11px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 138%;
+  color: #000000;
+}
+
+.info-button button {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+  width: 246px;
+  height: 48px;
+  background: #2d72cd;
+  border: none;
+  cursor: pointer;
+}
+
+.info-button button:hover {
+  transition: 1s;
+  background-color: rgb(29, 72, 130);
+}
+
+.nav_number a {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+  /* identical to box height */
+  text-decoration: none;
+  color: #000000;
+}
+
+.number_link a {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #5284f7;
+  text-decoration: none;
+}
+
+.number_link a:hover {
+  border-bottom: 1px dashed #5284f7;
+}
+
+.number_link img {
+  position: relative;
+  top: 3px;
+}
+
+.nav_number,
+.info-button {
+  position: relative;
+  top: 5px;
+}
+
+.hr {
+  border: 1px solid #aeb6bb;
+  transform: rotate(180deg);
+  margin-top: 21px;
+}
+
+/*main*/
+
+main {
+  max-width: 1920px;
+  margin: auto;
+}
+
+.opening_block {
+  background-size: 860px;
+  background-repeat: no-repeat;
+  background-position: right;
+
+  background-image: url(../images/main_metal1.png);
+}
+
+.op-block_1 {
+  margin-left: 90px;
+  margin-top: 168px;
+}
+
+.op-block_1 h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 37px;
+  line-height: 56px;
+  /* or 150% */
+  width: 634px;
+  color: #213252;
+}
+
+.op-block_1 p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 36px;
+  /* or 164% */
+  width: 504px;
+  color: #213252;
+  margin-top: 41px;
+}
+
+.op-block_1 button {
+  width: 400px;
+  height: 69px;
+  background: #2d72cd;
+  border: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #ffffff;
+  cursor: pointer;
+  margin-top: 73px;
+}
+
+.op-block_1 button:hover {
+  transition: 1s;
+  background-color: rgb(29, 72, 130);
+}
+
+main hr {
+  margin-top: 187px;
+}
+
+.product_text {
+  margin-left: 90px;
+  margin-top: 106px;
+}
+
+.product_text h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 52px;
+  /* or 130% */
+  width: 688px;
+  color: #213252;
+}
+
+.product_text p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  color: #213252;
+  margin-top: 10px;
+}
+
+.product_text h2 {
+  font-family: "Inter";
+  margin-top: 56px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #213252;
+}
+
+.product_tabs {
+  margin-left: 90px;
+  margin-top: 33px;
+}
+
+.product-top {
+  display: flex;
+}
+
+.product-top p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  position: relative;
+  top: 19px;
+  color: #213252;
+}
+
+.product-top div {
+  width: 206px;
+  height: 134px;
+  border: 1px solid #aeb6bb;
+}
+
+.product-top div:hover {
+  background: #edf1f4;
+}
+
+.product-top img {
+  margin-top: 23px;
+  margin-left: 85px;
+}
+/* h1 {
+	padding: 40px 0 20px;
+	font: 40px/60px Gabriela, Georgia, serif;
+	text-align: center;
+	text-shadow: 3px 3px rgba(0,0,0,0.1);
+	color: #fff;	
+} */
+
+.bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.page {
+  position: relative;
+  max-width: 1300px;
+  margin-left: 90px;
+  margin-top: 33px;
+  padding: 0 0px 40px;
+}
+
+/**/
+/* main styles */
+/**/
+.pcss3t {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+  font-size: 0;
+  text-align: left;
+}
+.pcss3t > input {
+  position: absolute;
+  left: -9999px;
+}
+.pcss3t > label {
+  display: inline-block;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.1s;
+  -o-transition: all 0.1s;
+  -ms-transition: all 0.1s;
+  -moz-transition: all 0.1s;
+  -webkit-transition: all 0.1s;
+}
+
+.pcss3t > input:checked + label {
+  cursor: default;
+}
+.pcss3t > ul {
+  list-style: none;
+  position: relative;
+  overflow: hidden;
+  margin-top: 10px;
+  padding: 0;
+  border: 0;
+  outline: none;
+  font-size: 13px;
+}
+.pcss3t > ul > li {
+  position: absolute;
+
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  opacity: 0;
+  transition: all 0.5s;
+  -o-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+}
+.pcss3t > .tab-content-first:checked ~ ul .tab-content-first,
+.pcss3t > .tab-content-2:checked ~ ul .tab-content-2,
+.pcss3t > .tab-content-3:checked ~ ul .tab-content-3,
+.pcss3t > .tab-content-4:checked ~ ul .tab-content-4,
+.pcss3t > .tab-content-5:checked ~ ul .tab-content-5,
+.pcss3t > .tab-content-6:checked ~ ul .tab-content-6,
+.pcss3t > .tab-content-7:checked ~ ul .tab-content-7,
+.pcss3t > .tab-content-8:checked ~ ul .tab-content-8,
+.pcss3t > .tab-content-9:checked ~ ul .tab-content-9,
+.pcss3t > .tab-content-last:checked ~ ul .tab-content-last {
+  z-index: 1;
+  top: 0;
+  left: 0;
+  opacity: 1;
+  -webkit-transform: scale(1, 1);
+  -webkit-transform: rotate(0deg);
+}
+
+/*----------------------------------------------------------------------------*/
+/*                                 EXTENSIONS                                 */
+/*----------------------------------------------------------------------------*/
+
+/**/
+/* auto height */
+/**/
+
+/**/
+/* grid */
+/**/
+
+/**/
+/* typography */
+/**/
+.pcss3t .typography {
+  color: #666;
+}
+
+.pcss3t .typography .link {
+  text-decoration: underline;
+  color: #1889e6;
+  cursor: pointer;
+}
+
+/**/
+/* steps */
+/**/
+
+/**/
+/* animation effects */
+/**/
+.pcss3t-effect-scale > ul > li {
+  -webkit-transform: scale(0.1, 0.1);
+}
+
+/*----------------------------------------------------------------------------*/
+/*                                   LAYOUTS                                  */
+/*----------------------------------------------------------------------------*/
+
+/**/
+/* top center */
+/**/
+
+/**/
+/* top combi */
+/**/
+
+/*----------------------------------------------------------------------------*/
+/*                               RESPONSIVENESS                               */
+/*----------------------------------------------------------------------------*/
+
+/**/
+/* pad */
+/**/
+@media screen and (max-width: 980px) {
+}
+
+/**/
+/* phone */
+/**/
+@media screen and (max-width: 767px) {
+  .pcss3t > label {
+    display: block;
+  }
+  .pcss3t > .right {
+    float: none;
+  }
+}
+
+/*----------------------------------------------------------------------------*/
+/*                                   THEMES                                   */
+/*----------------------------------------------------------------------------*/
+
+/**/
+/* default */
+/**/
+.pcss3t > label {
+  padding: 0 15px;
+  background: #e5e5e5;
+  font-size: 13px;
+  line-height: 49px;
+}
+.pcss3t > label:hover {
+  background: #f2f2f2;
+}
+.pcss3t > input:checked + label {
+  background: #fff;
+}
+.pcss3t > ul {
+  background: #fff;
+  text-align: left;
+}
+.pcss3t-steps > label:hover {
+  background: #e5e5e5;
+}
+
+/**/
+/* theme 1 */
+/**/
+.pcss3t-theme-1 > label {
+  margin: 0 5px 5px 0;
+  background: #fff;
+  box-shadow: 0 2px rgba(0, 0, 0, 0.2);
+  color: #808080;
+  opacity: 0.8;
+}
+.pcss3t-theme-1 > label:hover {
+  background: #edf1f4;
+  opacity: 1;
+}
+.pcss3t-theme-1 > input:checked + label {
+  margin-bottom: 0;
+  background: #edf1f4;
+  padding-bottom: 5px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  color: #2b82d9;
+  opacity: 1;
+}
+.pcss3t-theme-1 > ul {
+  border-radius: 0px;
+  box-shadow: 0 2px rgba(0, 0, 0, 0.2);
+}
+.pcss3t-theme-1 > .tab-content-first:checked ~ ul {
+  border-top-left-radius: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .pcss3t-theme-1 > label {
+    margin-right: 0;
+  }
+  .pcss3t-theme-1 > input:checked + label {
+    margin-bottom: 5px;
+    padding-bottom: 0;
+    border-radius: 5px;
+  }
+  .pcss3t-theme-1 > .tab-content-first:checked ~ ul {
+    border-top-left-radius: 5px;
+  }
+  .product_body {
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .pcss3t > label {
+    padding: 0 5px;
+  }
+}
+
+/**/
+/* theme 2 */
+/**/
+/*  */
+
+/**/
+/* theme 3 */
+/**/
+.pcss3t-theme-3 {
+  background: rgba(0, 0, 0, 0.8);
+}
+.pcss3t-theme-3 > label {
+  background: none;
+  border-right: 1px dotted rgba(255, 255, 255, 0.5);
+  text-align: center;
+  color: #fff;
+  opacity: 0.6;
+}
+.pcss3t-theme-3 > label:hover {
+  background: none;
+  color: #d9d92b;
+  opacity: 0.8;
+}
+.pcss3t-theme-3 > input:checked + label {
+  background: #d9d92b;
+  color: #000;
+  opacity: 1;
+}
+.pcss3t-theme-3 > ul {
+  border-top: 4px solid #d9d92b;
+  border-bottom: 4px solid #d9d92b;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+/*----------------------------------------------------------------------------*/
+/*                               CUSTOMIZATION                                */
+/*----------------------------------------------------------------------------*/
+
+/**/
+/* height */
+/**/
+.pcss3t > ul,
+.pcss3t > ul > li {
+  height: 600px;
+}
+
+label span {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  /* or 125% */
+  text-align: center;
+  color: #213252;
+}
+/* 
+label span::before {
+  content: " ";
+  background: url(../images/metal_wrap.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 20px;
+  width: 20px;
+  background-position-y: 10px;
+  display: inline-block;
+} */
+
+.tab_img {
+  width: 20px;
+  position: relative;
+  top: 4px;
+  right: 5px;
+}
+
+.product_body {
+  display: flex;
+}
