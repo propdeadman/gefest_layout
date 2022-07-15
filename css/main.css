@@ -40,6 +40,10 @@ nav {
     color: #000000;
 }
 
+
+
+
+
 .info-button button {
     font-family: "Inter";
     font-style: normal;
@@ -257,9 +261,9 @@ main hr {
     height: 100%;
 }
 
+/*====PRODUCT_TAB====*/
 .page {
     position: relative;
-
     margin-left: 90px;
     margin-top: 33px;
     padding: 0 0px 40px;
@@ -416,6 +420,7 @@ main hr {
     .pcss3t>.right {
         float: none;
     }
+
 }
 
 /*----------------------------------------------------------------------------*/
@@ -586,6 +591,7 @@ label span {
 }
 
 
+
 .border-enclosure {
     transform: rotate(180deg);
     height: 600px;
@@ -609,8 +615,22 @@ label span {
 
 .content {
     margin-top: 108px;
-    margin-left: 80px;
+    margin-left: 60px;
 }
+
+
+
+
+.content .content_list_position {
+    display: flex;
+}
+
+.content .content_list_position ul:nth-child(2) {
+    padding-left: 36px;
+}
+
+
+
 
 .product_body .content ul {
     list-style-type: disc;
@@ -629,6 +649,72 @@ label span {
 }
 
 
-.content .info-button {
-    margin-top: 224px;
+
+
+.list {
+    margin-top: 45px;
+    margin-left: 60px;
+}
+
+
+.list_position {
+    display: flex;
+}
+
+.list_position:nth-child(2) {
+    margin-top: 22px;
+}
+
+
+.list_position div:nth-child(2) {
+    padding-left: 66px;
+}
+
+.list_position div ul {
+    margin-top: 7px;
+}
+
+
+.list_position h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 36px;
+    color: #213252;
+}
+
+
+.list_position ul {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 166% */
+    list-style: disc;
+    position: relative;
+    margin-left: 25px;
+    color: #213252;
+}
+
+.first,
+.sixth {
+    margin-top: 209px;
+}
+
+.second {
+    margin-top: 237px;
+}
+
+.third {
+    margin-top: 181px;
+}
+
+.fourth {
+    margin-top: 153px;
+}
+
+.fifth {
+    margin-top: 43px;
 }
