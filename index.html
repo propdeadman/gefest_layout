@@ -256,52 +256,105 @@
                     Получите полный каталог <br>
                     и прайс на металлопрокат
                 </h1>
-                <div class="form_elements">
-                    <div class="form_elements_block part_1">
-                        <label for="email">
-                            <p>Куда отправить прайс и каталог?</p>
-                        </label>
-                        <div class="form">
-                            <input type="email" id="email" class="form_input" placeholder="E-mail" required name="email">
+                <form action="#">
+                    <div class="form_elements">
+                        <div class="form_elements_block part_1">
+                            <label for="email">
+                                <p>Куда отправить прайс и каталог?</p>
+                            </label>
+                            <div class="form">
+                                <input type="email" id="email" class="form_input" placeholder="E-mail" required name="email">
+                            </div>
+                        </div>
+                        <div class="form_elements_block part_2">
+                            <p>Какую компанию вы представляете?</p>
+                            <div class="form">
+                                <select class="form_select">
+                                    <option>Торговая компания, магазин</option>
+                                    <option>Belaruski </option>
+                                    <option>Bravo</option>
+                                    <option>Bazarstore</option>
+                                    <option>Araz Supermarket</option>
+                                </select>
+                            </div>
                         </div>
                     </div>
-                    <div class="form_elements_block part_2">
-                        <p>Какую компанию вы представляете?</p>
-                        <div class="form">
-                            <select class="form_select">
-                                <option>Торговая компания, магазин</option>
-                                <option>Belaruski </option>
-                                <option>Bravo</option>
-                                <option>Bazarstore</option>
-                                <option>Araz Supermarket</option>
-                            </select>
+                    <div class="form_elements elements_2">
+                        <div class="form_elements_block part_1">
+                            <label for="login">
+                                <p>Как к вам обращаться?</p>
+                            </label>
+                            <div class="form">
+                                <input type="uname" id="login" class="form_input" placeholder="Ваше имя" required name="login">
+                            </div>
+                        </div>
+                        <div class="form_elements_block part_2">
+                            <label for="tel">
+                                <p>Введите телефон</p>
+                            </label>
+                            <div class="form">
+                                <input type="tel" id="tel" class="form_input" placeholder="+ 7 ( _ _ _ ) - _ _ _ - _ _ - _ _" required name="tel" maxlength="17" pattern="\+7\s?[\(]{0,1}9[0-9]{2}[\)]{0,1}\s?\d{3}[-]{0,1}\d{2}[-]{0,1}\d{2}">
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="form_elements elements_2">
-                    <div class="form_elements_block part_1">
-                        <label for="login">
-                            <p>Как к вам обращаться?</p>
-                        </label>
-                        <div class="form">
-                            <input type="uname" id="login" class="form_input" placeholder="Ваше имя" required name="login">
-                        </div>
-                    </div>
-                    <div class="form_elements_block part_2">
-                        <label for="tel">
-                            <p>Введите телефон</p>
-                        </label>
-                        <div class="form">
-                            <input type="tel" id="tel" class="form_input" placeholder="+ 7 ( _ _ _ ) - _ _ _ - _ _ - _ _" required name="tel" maxlength="17" pattern="\+7\s?[\(]{0,1}9[0-9]{2}[\)]{0,1}\s?\d{3}[-]{0,1}\d{2}[-]{0,1}\d{2}">
-                        </div>
-                    </div>
-                </div>
-                <p style="margin-top: 8px;">Перезвоним, чтобы обсудить условия поставки</p>
-                <button>Узнать стоимость</button>
+                    <p style="margin-top: 8px;">Перезвоним, чтобы обсудить условия поставки</p>
+                    <input type="submit" class="submit_class" value="Узнать стоимость">
+                </form>
                 <p style="line-height: 16px; margin-top: 8px; font-size: 15px;">Нажимая на кнопку, вы даете согласие на обработку<br> своих персональных данных и соглашаетесь с<br> Политикой конфиденциальности
                 </p>
             </div>
-            <img src="images/block_background(man).png" alt="man :D" style="position: relative; bottom: 29.5px;">
+            <img src="images/block_background(man).png" alt="man :D" style="margin-bottom: 52px;">
+        </div>
+        <div class="support_block">
+            <div class="support_header">
+                <h1>Поддерживаем остатки на наших складах</h1>
+                <p>
+                    благодаря тщательно спланированному объему производства и сбыта
+                </p>
+            </div>
+            <div class="support_position">
+                <div class="support_content">
+                    <div>
+                        <img src="images/metal_wrap3.png" alt="metal_wrap" width="192px">
+                        <p>
+                            Штрипс, полоса <br>
+                            <span>более 1 000 тонн</span>
+                        </p>
+                    </div>
+                    <div>
+                        <img src="images/metal_pieces_3.png" alt="metal_wrap" width="192px">
+                        <p>
+                            Профиль <br>
+                            <span> более 200 тонн</span>
+                        </p>
+                    </div>
+                    <div>
+                        <img src="images/grid.png" alt="metal_wrap" width="192px">
+                        <p>
+                            Сетка <br>
+                            <span> более 300 тонн</span>
+                        </p>
+                    </div>
+                    <div>
+                        <img src="images/roof_2.png" alt="metal_wrap" width="192px">
+                        <p>
+                            Профлист <br>
+                            <span> более 300 тонн</span>
+                        </p>
+                    </div>
+                </div>
+                <figure>
+                    <img src="images/factory.jpg" alt="factory" width="600px">
+                    <figcaption><span>Мы специально поддерживаем не снижаемые остатки, <br>
+                            чтобы производить отгрузку за 1-2 дня после оплаты
+                        </span></figcaption>
+                </figure>
+            </div>
+        </div>
+        <div class="bubble_info">
+            <div class="bubble_block">
+                <h1>Мы продумали всё, чтобы вы могли <br> купить металлопрокат по выгодной цене <br> и с доставкой за 2-3 дня</h1>
+            </div>
         </div>
     </main>
 </body>
