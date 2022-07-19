@@ -1,1 +1,1 @@
-regular layout on HTML\CSS
+regular layout on HTML/CSS
