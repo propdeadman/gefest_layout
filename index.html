@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/media.css" />
     <title>gefest :)</title>
+
 </head>
 
 <body>
@@ -29,9 +30,18 @@
                 <a href="tel:+74954444444">+7 (495) 444-44-44</a>
                 <div class="number_link">
                     <img src="images/phone_nav.svg" alt="phone-svg" />
-                    <a href="#">Заказать обратный звонок</a>
+                    <div id="Wrapp" style="display:none">
+                        <div id='tt'>
+                            <div class="close" onclick="openbox('Wrapp')">x</div>
+
+
+                        </div>
+                    </div>
+                    <a href="#" onclick="openbox('Wrapp');return false;">Заказать обратный звонок</a>
                 </div>
             </div>
+            <!--popup_block-->
+
         </nav>
         <div class="hr"></div>
     </header>
@@ -54,7 +64,7 @@
                 </a>
             </div>
         </div>
-        <hr />
+        <hr class="first_hr" />
         <div class="product_block">
             <div class="product_text">
                 <h1>Выгодные цены на металлопрокат в Новосибирске</h1>
@@ -535,20 +545,169 @@
                     </form>
                 </div>
             </div>
-            <div class="profit_block">
-                <h1>Какие еще выгоды от работы с нами?</h1>
-                <div class="profit_content">
-                    <div class="profit_info">
-                        <h3>Не платите за обрезь и лишние объемы</h3>
-                        <p>Вы платите только за чистый вес металлопроката <br> без обрези. И покупаете то количество которое <br> вам нужно, мы не округляем <br> объемы.</p>
+        </div>
+        <div class="profit_block">
+            <h1>Какие еще выгоды от работы с нами?</h1>
+            <div class="profit_content">
+                <div class="profit_info">
+                    <h3>Не платите за обрезь и лишние объемы</h3>
+                    <p>Вы платите только за чистый вес металлопроката <br> без обрези. И покупаете то количество которое <br> вам нужно, мы не округляем <br> объемы.</p>
+                </div>
+                <div class="profit_image">
+                    <img src="images/warning_icon.svg" alt="icon">
+                </div>
+            </div>
+        </div>
+        <hr class="second_hr">
+        <div class="firm_block">
+            <div class="firm_content">
+                <h2>Покупайте все в одном месте</h2>
+                <p>
+                    За счет собственного проиизводства <br>
+                    и производства на базе партнеров мы работаем <br> со всеми основными поставщиками сырья.
+                </p>
+            </div>
+            <div class="firm_i">
+                <div class="firm_i stage_1">
+                    <div class="firm_logo_1">
+                        <img src="images/firm_4.png" alt="logo">
+                        <span>Липецк</span>
                     </div>
-                    <div class="profit_image">
-                        <img src="images/warning_icon.svg" alt="icon">
+                    <img src="images/firm_1.png" alt="">
+                </div>
+                <div class="firm_i stage_2">
+                    <img src="images/firm_2.png" alt="">
+                    <img src="images/firm_3.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="certificate_block">
+            <div class="certificate_content">
+                <div class="certificate_header">
+                    <h1>
+                        Производимая продукция соответствует регламентам <br> ГОСТ, ОСТ, ТУ и международным стандартам
+                    </h1>
+                    <p>
+                        Вся металлопродукция проходит заводские испытания.
+                    </p>
+                </div>
+                <div class="certificate_images">
+                    <img src="images/certificate_1.jpg" alt="certificate">
+                    <img src="images/certificate_2.jpg" alt="certificate">
+                    <img src="images/certificate_3.jpg" alt="certificate">
+                    <img src="images/certificate_4.jpg" alt="certificate">
+                </div>
+            </div>
+        </div>
+
+        <div class="order_block">
+            <div class="order_content">
+                <div class="order_left-block">
+                    <p>
+                        <span>Иванов Иван Эдуардович </span> <br>
+                        генеральный директор компании ТПК ГЕФЕСТ
+                    </p>
+                </div>
+                <div class="order_right-block">
+                    <div class="order_info">
+                        <h1>
+                            Сделайте первый заказ — и мы станем для вас <br>
+                            не просто очередным поставщиком, <br>
+                            а партнером, предлагающим лучшие условия <br>
+                            по постаке металлопроката
+                        </h1>
+                        <p>
+                            В 2014 году мы создали компанию и поставили цель стать крупнейшим <br>
+                            поставщиком металлопроката в РФ и СНГ. Наш приоритет — предлагать <br>
+                            клиентам лучший продукт по качеству и логистике.
+                        </p>
+                        <p>
+                            Я понимаю, что сейчас на рынке очень много предложений, и трудно <br>
+                            выбрать надежного партнера. Мы искренне заинтересованы в том, чтобы <br>
+                            <span>
+                                решить любую задачу вашей компании и предложить лучшие условия <br>
+                                сотрудничества.
+                            </span>
+                        </p>
+                    </div>
+                    <div class="order_number">
+                        <p>
+                            <span> Давайте обсудим ваш заказ прямо сейчас </span> <br>
+                            Оставьте свой номер, мы свяжемся с вами, ответим на <br>
+                            любые вопросы и расскажем больше о наших возможностях,<br> назовем сроки и цену исполнения вашего заказа.
+                        </p>
+
+                        <div class="number_block">
+                            <form action="#">
+                                <input type="tel" id="tel" class="form_input" placeholder="+ 7 ( _ _ _ ) - _ _ _ - _ _ - _ _" required name="tel" maxlength="17" pattern="\+7\s?[\(]{0,1}9[0-9]{2}[\)]{0,1}\s?\d{3}[-]{0,1}\d{2}[-]{0,1}\d{2}" />
+                                <input type="submit" class="order_submit" value="Узнать стоимость" />
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+
     </main>
+    <footer>
+        <div class="footer_content">
+            <div class="footer_level-1">
+                <div class="logo_block">
+                    <a href="#">GEFEST</a>
+                    <span>
+                        Производство и продажа <br />
+                        металлопроката
+                    </span>
+                </div>
+                <div class="soc_link">
+                    <div class="soc_circle">
+                        <div class="circle first_circle">
+                            <img src="images/wp_icon.png" alt="">
+                        </div>
+                        <p>WhatsApp</p>
+                    </div>
+                    <div class="soc_circle">
+                        <div class="circle second_circle">
+                            <img src="images/tg_icon.svg" alt="">
+                        </div>
+                        <p>Telegram</p>
+                    </div>
+                    <div class="soc_circle">
+                        <div class="circle third_circle">
+                            <img src="images/vb_icon.svg" alt="">
+                        </div>
+                        <p>Viber</p>
+                    </div>
+                    <div class="soc_circle">
+                        <div class="circle fourth_circle">
+                            <img src="images/sk_icon.svg" alt="">
+                        </div>
+                        <p>Skype</p>
+                    </div>
+                </div>
+                <div class="nav_number">
+                    <a href="tel:+74954444444" style="color: #fff">+7 (495) 444-44-44</a>
+                    <div class="number_link">
+                        <img src="images/phone_nav.svg" alt="phone-svg" />
+                        <a href="#">Заказать обратный звонок</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_level-2">
+                <p>
+                    Политика конфиденциальности
+                </p>
+                <p>
+                    Пользовательское соглашение
+                </p>
+                <p>
+                    Разработка сайта
+                </p>
+                <img src="images/footer_logo.png" alt="">
+            </div>
+        </div>
+    </footer>
 </body>
+<script src="js/common.js"></script>
 
 </html>
